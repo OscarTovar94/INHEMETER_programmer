@@ -1,0 +1,1 @@
+pyinstaller --onedir --noconsole --clean --icon=elrad.ico INHEMETER_programmer_Rev1.2.py

@@ -1,0 +1,74 @@
+<XML>
+<FACTORY>
+<SCENELIST SCENEDESCRIPTION="Software de prueba infrarroja para el medidor STI 1S" SHOWSETADDRESS="Y" SHOWSETSERVER="Y" METERLENGTH="17" SCENETYPE="19" LOADTOKEN="N">
+<COMMAND DataValue="4@SKI1-6B-17022201" ISEDIT="1">
+<SEND CmdDescription="Verificar el número de versión del firmware " CMDTYPE="1" DataValue="4@STI_1S_V01.01.08_20250827_0x0D80C1C9" ISEDIT="1">
+<ITEM ConfirmCmdParamIndex="" ConfirmCommandCode="" STATUS="0" CmdCode="C120130105109253" OperatType="1" OrderNo="1" ItemsNo="0" Description="Número de identificación del equipo" DataType="1" DataLength="6" IsReverse="1" ValueType="0" DataValue="099990000011" IsEdit="0" IsVisible="0" IsVerified="0" SN="578945"/>
+<ITEM ConfirmCmdParamIndex="" ConfirmCommandCode="" STATUS="0" CmdCode="C120130105109253" OperatType="1" OrderNo="2" ItemsNo="1" Description="Código de control de instrucciones" DataType="1" DataLength="1" IsReverse="0" ValueType="0" DataValue="11" IsEdit="0" IsVisible="0" IsVerified="0" SN="578946"/>
+<ITEM ConfirmCmdParamIndex="" ConfirmCommandCode="" STATUS="0" CmdCode="C120130105109253" OperatType="1" OrderNo="3" ItemsNo="2" Description="Enviar Instrucciones" DataType="1" DataLength="4" IsReverse="1" ValueType="0" DataValue="FE000010" IsEdit="0" IsVisible="0" IsVerified="0" SN="578947"/>
+</SEND>
+<RECEIVE>
+<ITEM STATUS="0" CmdCode="C120130105109253" OperatType="2" OrderNo="1" ItemsNo="0" Description=" Dirección de medidor" DataType="1" DataLength="6" IsReverse="0" ValueType="0" IsEdit="0" IsVisible="0" SN="578948"/>
+<ITEM STATUS="0" CmdCode="C120130105109253" OperatType="2" OrderNo="2" ItemsNo="1" Description="código de identificación" DataType="1" DataLength="1" IsReverse="0" ValueType="0" IsEdit="0" IsVisible="0" SN="578949"/>
+<ITEM STATUS="0" CmdCode="C120130105109253" OperatType="2" OrderNo="3" ItemsNo="2" Description="código de instrucciones" DataType="1" DataLength="4" IsReverse="0" ValueType="0" IsEdit="0" IsVisible="0" SN="578950"/>
+<ITEM STATUS="0" CmdCode="C120130105109253" OperatType="2" OrderNo="4" ItemsNo="3" DecimalPlace="0" Description="" DataType="7" DataLength="36" IsReverse="0" ValueType="3" IsEdit="0" format="1@H" IsVisible="1" ControlString="ASCII" SN="578951"/>
+</RECEIVE>
+</COMMAND>
+<COMMAND DataValue="4@SKI1-6B-17022201" ISEDIT="1">
+<SEND CmdDescription="Verificar el número de versión del hardware " CMDTYPE="1" DataValue="4@A2.1-20250109" ISEDIT="1">
+<ITEM ConfirmCmdParamIndex="" ConfirmCommandCode="" STATUS="0" CmdCode="C120130105109253" OperatType="1" OrderNo="1" ItemsNo="0" Description="No. de ID de máquina" DataType="1" DataLength="6" IsReverse="1" ValueType="0" DataValue="099990000011" IsEdit="0" IsVisible="0" IsVerified="0" SN="578945"/>
+<ITEM ConfirmCmdParamIndex="" ConfirmCommandCode="" STATUS="0" CmdCode="C120130105109253" OperatType="1" OrderNo="2" ItemsNo="1" Description="Código de control de instrucciones" DataType="1" DataLength="1" IsReverse="0" ValueType="0" DataValue="11" IsEdit="0" IsVisible="0" IsVerified="0" SN="578946"/>
+<ITEM ConfirmCmdParamIndex="" ConfirmCommandCode="" STATUS="0" CmdCode="C120130105109253" OperatType="1" OrderNo="3" ItemsNo="2" Description="Enviar instrucciones" DataType="1" DataLength="4" IsReverse="1" ValueType="0" DataValue="FE000011" IsEdit="0" IsVisible="0" IsVerified="0" SN="578947"/>
+</SEND>
+<RECEIVE>
+<ITEM STATUS="0" CmdCode="C120130105109253" OperatType="2" OrderNo="1" ItemsNo="0" Description="Dirección de medidor" DataType="1" DataLength="6" IsReverse="0" ValueType="0" IsEdit="0" IsVisible="0" SN="578948"/>
+<ITEM STATUS="0" CmdCode="C120130105109253" OperatType="2" OrderNo="2" ItemsNo="1" Description="código de identificación" DataType="1" DataLength="1" IsReverse="0" ValueType="0" IsEdit="0" IsVisible="0" SN="578949"/>
+<ITEM STATUS="0" CmdCode="C120130105109253" OperatType="2" OrderNo="3" ItemsNo="2" Description="Código de Instrucciones" DataType="1" DataLength="4" IsReverse="0" ValueType="0" IsEdit="0" IsVisible="0" SN="578950"/>
+<ITEM STATUS="0" CmdCode="C120130105109253" OperatType="2" OrderNo="4" ItemsNo="3" DecimalPlace="0" Description="" DataType="7" DataLength="16" IsReverse="0" ValueType="3" IsEdit="0" format="1@H" IsVisible="1" ControlString="ASCII" SN="578951"/>
+</RECEIVE>
+</COMMAND>
+<COMMAND DataValue="099990000011" ISEDIT="1">
+<SEND CmdDescription="Poner dirección" CMDTYPE="3" DataValue="099990000011" ISEDIT="1" SLEEP="0000">
+<ITEM ConfirmCmdParamIndex="" ConfirmCommandCode="" STATUS="0" CmdCode="C120217111443687" OperatType="1" OrderNo="1" ItemsNo="0" Description="Número de identificación del equipo" DataType="1" DataLength="6" IsReverse="1" ValueType="0" DataValue="AAAAAAAAAAAA" IsEdit="0" IsVisible="0" IsVerified="0" SN="579018"/>
+<ITEM ConfirmCmdParamIndex="" ConfirmCommandCode="" STATUS="0" CmdCode="C120217111443687" OperatType="1" OrderNo="2" ItemsNo="1" Description="Código de control de instrucciones" DataType="1" DataLength="1" IsReverse="0" ValueType="0" DataValue="15" IsEdit="0" IsVisible="0" IsVerified="0" SN="579019"/>
+<ITEM ConfirmCmdParamIndex="" ConfirmCommandCode="" STATUS="0" CmdCode="C120217111443687" OperatType="1" OrderNo="3" ItemsNo="2" Description="código de identificación" DataType="1" DataLength="6" IsReverse="1" ValueType="0" DataValue="099990000011" IsEdit="0" IsVisible="0" IsVerified="0" SN="579019"/>
+</SEND>
+<RECEIVE>
+<ITEM STATUS="0" CmdCode="C120217111443687" OperatType="2" OrderNo="1" ItemsNo="0" Description="Dirección de medidor" DataType="1" DataLength="6" IsReverse="0" ValueType="0" IsEdit="0" IsVisible="0" SN="579020"/>
+<ITEM STATUS="0" CmdCode="C120217111443687" OperatType="2" OrderNo="2" ItemsNo="1" Description="código de identificación" DataType="1" DataLength="1" IsReverse="0" ValueType="0" IsEdit="0" IsVisible="0" SN="579021"/>
+<ITEM STATUS="0" CmdCode="C120217111443687" OperatType="2" OrderNo="3" ItemsNo="2" Description="Meter ID" DataType="1" DataLength="6" IsReverse="1" ValueType="0" IsEdit="0" format="1@H" IsVisible="1" SN="579022"/>
+</RECEIVE>
+</COMMAND>
+<COMMAND>
+<SEND CmdDescription="Sleep 20000" CMDTYPE="3" DataValue="15000" ISEDIT="1" ONLYSLEEP="1"/>
+</COMMAND>
+<COMMAND DataValue="4@099990000011" ISEDIT="1">
+<SEND CmdDescription="leer dirección de medidor" CMDTYPE="1" DataValue="4@099990000011" ISEDIT="1" SLEEP="000">
+<ITEM ConfirmCmdParamIndex="" ConfirmCommandCode="" STATUS="0" CmdCode="C120217111443687" OperatType="1" OrderNo="1" ItemsNo="0" Description="Número de identificación del equipo" DataType="1" DataLength="6" IsReverse="1" ValueType="0" DataValue="AAAAAAAAAAAA" IsEdit="0" IsVisible="0" IsVerified="0" SN="579018"/>
+<ITEM ConfirmCmdParamIndex="" ConfirmCommandCode="" STATUS="0" CmdCode="C120217111443687" OperatType="1" OrderNo="2" ItemsNo="1" Description="Código de control de instrucciones" DataType="1" DataLength="1" IsReverse="0" ValueType="0" DataValue="13" IsEdit="0" IsVisible="0" IsVerified="0" SN="579019"/>
+</SEND>
+<RECEIVE>
+<ITEM STATUS="0" CmdCode="C120217111443687" OperatType="2" OrderNo="1" ItemsNo="0" Description="Dirección de medidor" DataType="1" DataLength="6" IsReverse="0" ValueType="0" IsEdit="0" IsVisible="0" SN="579020"/>
+<ITEM STATUS="0" CmdCode="C120217111443687" OperatType="2" OrderNo="2" ItemsNo="1" Description="código de identificación" DataType="1" DataLength="1" IsReverse="0" ValueType="0" IsEdit="0" IsVisible="0" SN="579021"/>
+<ITEM STATUS="0" CmdCode="C120217111443687" OperatType="2" OrderNo="3" ItemsNo="2" Description="código de identificación" DataType="1" DataLength="0" IsReverse="0" ValueType="0" IsEdit="0" IsVisible="0" SN="579021"/>
+<ITEM STATUS="0" CmdCode="C120217111443687" OperatType="2" OrderNo="4" ItemsNo="3" Description="Meter ID" DataType="1" DataLength="6" IsReverse="1" ValueType="0" IsEdit="0" format="1@H" IsVisible="1" SN="579022"/>
+</RECEIVE>
+</COMMAND>
+<COMMAND DataValue="4@$Variant@40@40" ISEDIT="1">
+<SEND CmdDescription="Verificar la temperatura" CMDTYPE="1" DataValue="4@$Variant@25@10" ISEDIT="1" SLEEP="0000">
+<ITEM ConfirmCmdParamIndex="" ConfirmCommandCode="" STATUS="0" CmdCode="C120130105109253" OperatType="1" OrderNo="1" ItemsNo="0" Description="No.ID de Máquina" DataType="1" DataLength="6" IsReverse="1" ValueType="0" DataValue="099990000011" IsEdit="0" IsVisible="0" IsVerified="0" SN="578945"/>
+<ITEM ConfirmCmdParamIndex="" ConfirmCommandCode="" STATUS="0" CmdCode="C120130105109253" OperatType="1" OrderNo="2" ItemsNo="1" Description="Código de control de instrucciones" DataType="1" DataLength="1" IsReverse="0" ValueType="0" DataValue="11" IsEdit="0" IsVisible="0" IsVerified="0" SN="578946"/>
+<ITEM ConfirmCmdParamIndex="" ConfirmCommandCode="" STATUS="0" CmdCode="C120130105109253" OperatType="1" OrderNo="3" ItemsNo="2" Description="Enviar instrucciones" DataType="1" DataLength="4" IsReverse="1" ValueType="0" DataValue="FE000005" IsEdit="0" IsVisible="0" IsVerified="0" SN="578947"/>
+</SEND>
+<RECEIVE>
+<ITEM STATUS="0" CmdCode="C120130105109253" OperatType="2" OrderNo="1" ItemsNo="0" Description="Dirección de medidor" DataType="1" DataLength="6" IsReverse="0" ValueType="0" IsEdit="0" IsVisible="0" SN="578948"/>
+<ITEM STATUS="0" CmdCode="C120130105109253" OperatType="2" OrderNo="2" ItemsNo="1" Description="código de identificación" DataType="1" DataLength="1" IsReverse="0" ValueType="0" IsEdit="0" IsVisible="0" SN="578949"/>
+<ITEM STATUS="0" CmdCode="C120130105109253" OperatType="2" OrderNo="3" ItemsNo="2" Description="código de instrucciones" DataType="1" DataLength="4" IsReverse="0" ValueType="0" IsEdit="0" IsVisible="0" SN="578950"/>
+<ITEM STATUS="0" CmdCode="C120130105109253" OperatType="2" OrderNo="4" ItemsNo="3" Description=" Valor de temperatura" DataType="1" DataLength="2" DecimalPlace="1" IsReverse="1" ValueType="0" format="3@C2" ControlString="" IsEdit="0" IsVisible="1" SN="578951"/>
+</RECEIVE>
+</COMMAND>
+</SCENELIST>
+</FACTORY>
+<CONTROL/>
+<DEVICEINFO DESCRIPTION="DDZ1513DIP Prueba en taller" VIEWORDER="Y" PARAMETERS="BufSize:1024;BaudRate:9600;ByteSize:8;StartBits:1;Parity:0;StopBits:0;Timeout:5000;SpecialTreat:0" DEVICETYPE="Inhemeter" PTLTYPE="DLT645-2007"/>
+</XML>
